@@ -1,5 +1,5 @@
 --(TERMINAL) ACESSAR DATABASE - LINUX
-sudo -upostgres psql -s g5_web
+sudo -upostgres psql -s banco_dados
 
 --(TERMINAL) SAIR
 \q
@@ -14,7 +14,7 @@ sudo -upostgres psql -s g5_web
 sudo -upostgres psql
 
 --(SCRIPT) CRIAR DATABASE
-sudo -upostgres createdb g5_web
+sudo -upostgres createdb banco_dados
 
 --(SCRIPT) DROP DATABASE
 sudo -upostgres dropdb g5_web
@@ -23,5 +23,5 @@ sudo -upostgres dropdb g5_web
 select version();
 
 --(TERMINAL) CONECTAR A OUTRA DATABASE
-\c g5_web postgres;
-\connect g5_web postgres;
+\c banco_dados1 postgres;
+\connect banco_dados2 postgres;
