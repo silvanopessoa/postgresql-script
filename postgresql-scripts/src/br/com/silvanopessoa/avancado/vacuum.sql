@@ -1,0 +1,900 @@
+VACUUM VERBOSE
+
+VACUUM(ANALYZE, VERBOSE)
+
+--INFO:  limpando "pg_catalog.pg_statistic"
+--INFO:  índice "pg_statistic_relid_att_inh_index" agora contém 383 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+
+--INFO:  "pg_statistic": encontrados 0 versões de registros removíveis e 383 não-removíveis em 14 de 14 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2619"
+--INFO:  índice "pg_toast_2619_index" agora contém 10 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+
+--INFO:  "pg_toast_2619": encontrados 0 versões de registros removíveis e 10 não-removíveis em 2 de 2 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_type"
+--INFO:  índice "pg_type_oid_index" agora contém 332 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_type_typname_nsp_index" agora contém 332 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+
+--INFO:  "pg_type": encontrados 0 versões de registros removíveis e 332 não-removíveis em 8 de 8 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 70 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "public.a"
+--INFO:  "a": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_authid"
+--INFO:  índice "pg_authid_rolname_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_authid_oid_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_authid": encontrados 0 versões de registros removíveis e 1 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_attribute"
+--INFO:  índice "pg_attribute_relid_attnam_index" agora contém 2253 versões de registros em 16 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--3 páginas de índice foram removidas, 3 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_attribute_relid_attnum_index" agora contém 2253 versões de registros em 11 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--1 páginas de índice foram removidas, 1 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_attribute": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 42 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_proc"
+--INFO:  índice "pg_proc_oid_index" agora contém 2490 versões de registros em 9 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_proc_proname_args_nsp_index" agora contém 2490 versões de registros em 24 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_proc": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 62 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_1255"
+--INFO:  índice "pg_toast_1255_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_1255": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_class"
+--INFO:  índice "pg_class_oid_index" agora contém 289 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_class_relname_nsp_index" agora contém 289 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_class": encontrados 0 versões de registros removíveis e 289 não-removíveis em 8 de 8 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 116 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_user_mapping"
+--INFO:  índice "pg_user_mapping_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_user_mapping_user_server_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_user_mapping": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_constraint"
+--INFO:  índice "pg_constraint_conname_nsp_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_constraint_conrelid_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_constraint_contypid_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_constraint_oid_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_constraint": encontrados 0 versões de registros removíveis e 2 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2606"
+--INFO:  índice "pg_toast_2606_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2606": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_inherits"
+--INFO:  índice "pg_inherits_parent_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_inherits_relid_seqno_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_inherits": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_operator"
+--INFO:  índice "pg_operator_oid_index" agora contém 728 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_operator_oprname_l_r_n_index" agora contém 728 versões de registros em 5 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_operator": encontrados 0 versões de registros removíveis e 728 não-removíveis em 14 de 14 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_opfamily"
+--INFO:  índice "pg_opfamily_am_name_nsp_index" agora contém 76 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_opfamily_oid_index" agora contém 76 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_opfamily": encontrados 0 versões de registros removíveis e 76 não-removíveis em 2 de 2 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_opclass"
+--INFO:  índice "pg_opclass_am_name_nsp_index" agora contém 119 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_opclass_oid_index" agora contém 119 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_opclass": encontrados 0 versões de registros removíveis e 119 não-removíveis em 2 de 2 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_am"
+--INFO:  índice "pg_am_name_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_am_oid_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_am": encontrados 0 versões de registros removíveis e 5 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_amop"
+--INFO:  índice "pg_amop_fam_strat_index" agora contém 393 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_amop_opr_fam_index" agora contém 393 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_amop_oid_index" agora contém 393 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_amop": encontrados 0 versões de registros removíveis e 393 não-removíveis em 4 de 4 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_amproc"
+--INFO:  índice "pg_amproc_fam_proc_index" agora contém 286 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_amproc_oid_index" agora contém 286 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_amproc": encontrados 0 versões de registros removíveis e 286 não-removíveis em 3 de 3 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_language"
+--INFO:  índice "pg_language_name_index" agora contém 4 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_language_oid_index" agora contém 4 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_language": encontrados 0 versões de registros removíveis e 4 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_largeobject_metadata"
+--INFO:  índice "pg_largeobject_metadata_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_largeobject_metadata": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_aggregate"
+--INFO:  índice "pg_aggregate_fnoid_index" agora contém 120 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_aggregate": encontrados 0 versões de registros removíveis e 120 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_rewrite"
+--INFO:  índice "pg_rewrite_oid_index" agora contém 106 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_rewrite_rel_rulename_index" agora contém 106 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_rewrite": encontrados 0 versões de registros removíveis e 106 não-removíveis em 12 de 12 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2618"
+--INFO:  índice "pg_toast_2618_index" agora contém 172 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2618": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 40 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_trigger"
+--INFO:  índice "pg_trigger_tgconstraint_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_trigger_tgrelid_tgname_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_trigger_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_trigger": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2620"
+--INFO:  índice "pg_toast_2620_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2620": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_description"
+--INFO:  índice "pg_description_o_c_o_index" agora contém 3452 versões de registros em 16 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_description": encontrados 0 versões de registros removíveis e 3452 não-removíveis em 30 de 30 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2609"
+--INFO:  índice "pg_toast_2609_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2609": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_database"
+--INFO:  índice "pg_database_datname_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_database_oid_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_database": encontrados 0 versões de registros removíveis e 5 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 3 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_enum"
+--INFO:  índice "pg_enum_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_enum_typid_label_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_enum_typid_sortorder_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_enum": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_namespace"
+--INFO:  índice "pg_namespace_nspname_index" agora contém 6 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_namespace_oid_index" agora contém 6 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_namespace": encontrados 0 versões de registros removíveis e 6 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_conversion"
+--INFO:  índice "pg_conversion_default_index" agora contém 132 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_conversion_name_nsp_index" agora contém 132 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_conversion_oid_index" agora contém 132 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_conversion": encontrados 0 versões de registros removíveis e 132 não-removíveis em 3 de 3 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_depend"
+--INFO:  índice "pg_depend_depender_index" agora contém 6207 versões de registros em 28 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_depend_reference_index" agora contém 6207 versões de registros em 27 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_depend": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 46 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_db_role_setting"
+--INFO:  índice "pg_db_role_setting_databaseid_rol_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_db_role_setting": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2964"
+--INFO:  índice "pg_toast_2964_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2964": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_tablespace"
+--INFO:  índice "pg_tablespace_oid_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_tablespace_spcname_index" agora contém 2 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_tablespace": encontrados 0 versões de registros removíveis e 2 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_pltemplate"
+--INFO:  índice "pg_pltemplate_name_index" agora contém 8 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_pltemplate": encontrados 0 versões de registros removíveis e 8 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_auth_members"
+--INFO:  índice "pg_auth_members_role_member_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_auth_members_member_role_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_auth_members": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_shdepend"
+--INFO:  índice "pg_shdepend_depender_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_shdepend_reference_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_shdepend": encontrados 0 versões de registros removíveis e 1 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_shdescription"
+--INFO:  índice "pg_shdescription_o_c_index" agora contém 3 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_shdescription": encontrados 0 versões de registros removíveis e 3 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2396"
+--INFO:  índice "pg_toast_2396_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2396": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_ts_config"
+--INFO:  índice "pg_ts_config_cfgname_index" agora contém 16 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_ts_config_oid_index" agora contém 16 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_ts_config": encontrados 0 versões de registros removíveis e 16 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_ts_config_map"
+--INFO:  índice "pg_ts_config_map_index" agora contém 304 versões de registros em 4 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_ts_config_map": encontrados 0 versões de registros removíveis e 304 não-removíveis em 2 de 2 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_ts_dict"
+--INFO:  índice "pg_ts_dict_dictname_index" agora contém 16 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_ts_dict_oid_index" agora contém 16 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_ts_dict": encontrados 0 versões de registros removíveis e 16 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_ts_parser"
+--INFO:  índice "pg_ts_parser_prsname_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.01u sec elapsed 0.00 sec.
+--INFO:  índice "pg_ts_parser_oid_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_ts_parser": encontrados 0 versões de registros removíveis e 1 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.01u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_ts_template"
+--INFO:  índice "pg_ts_template_tmplname_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_ts_template_oid_index" agora contém 5 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_ts_template": encontrados 0 versões de registros removíveis e 5 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_extension"
+--INFO:  índice "pg_extension_oid_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_extension_name_index" agora contém 1 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_extension": encontrados 0 versões de registros removíveis e 1 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_foreign_data_wrapper"
+--INFO:  índice "pg_foreign_data_wrapper_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_foreign_data_wrapper_name_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_foreign_data_wrapper": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_foreign_server"
+--INFO:  índice "pg_foreign_server_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_foreign_server_name_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_foreign_server": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_default_acl"
+--INFO:  índice "pg_default_acl_role_nsp_obj_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_default_acl_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_default_acl": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_seclabel"
+--INFO:  índice "pg_seclabel_object_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_seclabel": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_3596"
+--INFO:  índice "pg_toast_3596_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_3596": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_shseclabel"
+--INFO:  índice "pg_shseclabel_object_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_shseclabel": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_collation"
+--INFO:  índice "pg_collation_oid_index" agora contém 3 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_collation_name_enc_nsp_index" agora contém 3 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_collation": encontrados 0 versões de registros removíveis e 3 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_range"
+--INFO:  índice "pg_range_rngtypid_index" agora contém 6 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_range": encontrados 0 versões de registros removíveis e 6 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_largeobject"
+--INFO:  índice "pg_largeobject_loid_pn_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_largeobject": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_implementation_info"
+--INFO:  "sql_implementation_info": encontrados 0 versões de registros removíveis e 12 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11587"
+--INFO:  índice "pg_toast_11587_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11587": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_languages"
+--INFO:  "sql_languages": encontrados 0 versões de registros removíveis e 4 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11592"
+--INFO:  índice "pg_toast_11592_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11592": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_packages"
+--INFO:  "sql_packages": encontrados 0 versões de registros removíveis e 10 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11597"
+--INFO:  índice "pg_toast_11597_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11597": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_parts"
+--INFO:  "sql_parts": encontrados 0 versões de registros removíveis e 9 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11602"
+--INFO:  índice "pg_toast_11602_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11602": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_sizing"
+--INFO:  "sql_sizing": encontrados 0 versões de registros removíveis e 23 não-removíveis em 1 de 1 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11607"
+--INFO:  índice "pg_toast_11607_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11607": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_sizing_profiles"
+--INFO:  "sql_sizing_profiles": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11612"
+--INFO:  índice "pg_toast_11612_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11612": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_attrdef"
+--INFO:  índice "pg_attrdef_adrelid_adnum_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_attrdef_oid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_attrdef": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_2604"
+--INFO:  índice "pg_toast_2604_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_2604": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_index"
+--INFO:  índice "pg_index_indrelid_index" agora contém 110 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_index_indexrelid_index" agora contém 110 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_index": encontrados 0 versões de registros removíveis e 110 não-removíveis em 3 de 3 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 13 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_cast"
+--INFO:  índice "pg_cast_oid_index" agora contém 196 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  índice "pg_cast_source_target_index" agora contém 196 versões de registros em 2 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_cast": encontrados 0 versões de registros removíveis e 196 não-removíveis em 2 de 2 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_catalog.pg_foreign_table"
+--INFO:  índice "pg_foreign_table_relid_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_foreign_table": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "information_schema.sql_features"
+--INFO:  "sql_features": encontrados 0 versões de registros removíveis e 672 não-removíveis em 7 de 7 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  limpando "pg_toast.pg_toast_11582"
+--INFO:  índice "pg_toast_11582_index" agora contém 0 versões de registros em 1 páginas
+--DETAIL:  0 versões de registros de índices foram apagadas.
+--0 páginas de índice foram removidas, 0 são reutilizáveis.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--INFO:  "pg_toast_11582": encontrados 0 versões de registros removíveis e 0 não-removíveis em 0 de 0 páginas
+--DETAIL:  0 versões de registros não vigentes não podem ser removidas ainda.
+--Havia 0 ponteiros de itens não utilizados.
+--0 páginas estão completamente vazias.
+--CPU 0.00s/0.00u sec elapsed 0.00 sec.
+--
+--Query returned successfully with no result in 172 ms.
+
